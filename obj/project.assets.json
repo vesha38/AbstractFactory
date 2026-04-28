@@ -17,8 +17,8 @@
   "libraries": {
     "MyHelpers/1.0.0": {
       "type": "project",
-      "path": "../../../../../VeshaLibraries-main/MyHelpers/MyHelpers.csproj",
-      "msbuildProject": "../../../../../VeshaLibraries-main/MyHelpers/MyHelpers.csproj"
+      "path": "../../../../../Projects/VeshaLibraries/MyHelpers/MyHelpers.csproj",
+      "msbuildProject": "../../../../../Projects/VeshaLibraries/MyHelpers/MyHelpers.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -32,27 +32,29 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\uni\\3_2\\Проектування\\Prjcts\\AbstractFactory\\AbstractFactory.csproj",
+      "projectUniqueName": "C:\\MainFolder\\уник\\3_2\\Проектування_ПЗ\\Prjcts\\AbstractFactory\\AbstractFactory.csproj",
       "projectName": "AbstractFactory",
-      "projectPath": "D:\\uni\\3_2\\Проектування\\Prjcts\\AbstractFactory\\AbstractFactory.csproj",
+      "projectPath": "C:\\MainFolder\\уник\\3_2\\Проектування_ПЗ\\Prjcts\\AbstractFactory\\AbstractFactory.csproj",
       "packagesPath": "C:\\Users\\vesha\\.nuget\\packages\\",
-      "outputPath": "D:\\uni\\3_2\\Проектування\\Prjcts\\AbstractFactory\\obj\\",
+      "outputPath": "C:\\MainFolder\\уник\\3_2\\Проектування_ПЗ\\Prjcts\\AbstractFactory\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vesha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\vesha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\VeshaLibraries-main\\MyHelpers\\MyHelpers.csproj": {
-              "projectPath": "D:\\VeshaLibraries-main\\MyHelpers\\MyHelpers.csproj"
+            "C:\\MainFolder\\Projects\\VeshaLibraries\\MyHelpers\\MyHelpers.csproj": {
+              "projectPath": "C:\\MainFolder\\Projects\\VeshaLibraries\\MyHelpers\\MyHelpers.csproj"
             }
           }
         }
@@ -67,7 +69,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -88,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

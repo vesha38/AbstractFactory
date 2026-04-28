@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\VeshaLibraries-main\MyHelpers\MyHelpers.csproj" />
+    <ProjectReference Include="C:\MainFolder\Projects\VeshaLibraries\MyHelpers\MyHelpers.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

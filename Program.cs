@@ -32,6 +32,8 @@ public static class Suppliers
     private static IShoesSupplier ChooseSupplier()
     {
 
+        Logger.Instance.Log("[ChooseSupplier] called");
+
         InputHelper input = new InputHelper();
 
         while (true)
@@ -82,6 +84,8 @@ public static class Suppliers
     public static IShoes BuyShoes()
     {
         
+        Logger.Instance.Log("[BuyShoes] called");
+
         InputHelper input = new InputHelper();
 
         while (true)
@@ -101,6 +105,7 @@ public static class Suppliers
 
                 case 1:
                     {
+                        
                         
                         return ChooseSupplier().CreateSneakers();
 
@@ -143,6 +148,7 @@ public class Menu
         
         InputHelper input = new InputHelper();
 
+        Logger.Instance.Log("[MainMenu] Called");
         Console.Clear();
         Console.WriteLine("====MENU====");
         Console.WriteLine("1. Buy shoes");
@@ -162,6 +168,7 @@ public class Menu
             case 2:
                 {
                     
+                    Logger.Instance.Log("[Exit] called");
                     Console.Clear();
                     Environment.Exit(0);
                     break;
